@@ -13,4 +13,27 @@ class Checker {
             else -> println("okay done")
         }
     }
+
+    fun testLooper(){
+        for( i in 5 downTo 1) println(i)
+
+        for( i in 1..5 step 2) println(i)
+
+        for( i in 5 downTo 1 step 2) println(i)
+
+    }
+
+    fun triangle(){
+        val n = 5
+
+        for(line in 1..n){
+            for(space in 1..(n-line)) print(" ")
+            for(star in 1 until 2 * line) print("*")
+            println()
+        }
+    }
+
+
+
+
 }
