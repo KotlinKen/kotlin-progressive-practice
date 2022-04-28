@@ -16,6 +16,7 @@ fun main(){
 
     println(sampleQueue)
     sampleQueue.remove()
+    sampleQueue.element()
     println(sampleQueue)
 
     while(sampleQueue.isNotEmpty()){
