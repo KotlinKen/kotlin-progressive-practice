@@ -14,7 +14,8 @@ fun main(){
     sampleQueue.add(2)
     sampleQueue.add(3)
 
-
+    println(sampleQueue)
+    sampleQueue.remove()
     println(sampleQueue)
 
     while(sampleQueue.isNotEmpty()){
